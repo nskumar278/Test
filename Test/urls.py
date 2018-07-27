@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from homepage import views
-#i love you
+#i love you sdfs
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name = "home"),
